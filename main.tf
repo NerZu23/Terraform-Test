@@ -23,3 +23,5 @@ resource "openstack_compute_instance_v2" "basic" {
     name = "Some_Network"
   }
 }
+
+# Cualquier cambio tiene que estar registrado
