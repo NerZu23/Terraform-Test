@@ -1,1 +1,2 @@
-Esto es una prueba de testeo de   VSCore
+These are Terraform documents that are produced for educational purposes
+:)
