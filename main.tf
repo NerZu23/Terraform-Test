@@ -19,6 +19,7 @@ locals {
   vpc_id = try(aws_vpc_ipv4_cidr_block_association.this[0].vpc_id, aws_vpc.this[0].id, "")
 
   create_vpc = var.create_vpc && var.putin_khuylo
+  
 }
 
 ################################################################################
